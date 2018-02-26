@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8211101E204396EF008CC6EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8211101D204396EF008CC6EC /* AppDelegate.m */; };
+		82111021204396EF008CC6EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82111020204396EF008CC6EC /* ViewController.m */; };
+		82111024204396EF008CC6EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82111022204396EF008CC6EC /* Main.storyboard */; };
+		82111026204396EF008CC6EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82111025204396EF008CC6EC /* Assets.xcassets */; };
+		82111029204396EF008CC6EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82111027204396EF008CC6EC /* LaunchScreen.storyboard */; };
+		8211102C204396EF008CC6EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8211102B204396EF008CC6EC /* main.m */; };
+		821110352043972E008CC6EC /* JDLStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 821110342043972E008CC6EC /* JDLStatusBarHUD.m */; };
+		8211103A20439954008CC6EC /* JDLStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8211103920439954008CC6EC /* JDLStatusBarHUD.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82111019204396EF008CC6EC /* JDLStatusBarHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDLStatusBarHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8211101C204396EF008CC6EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8211101D204396EF008CC6EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8211101F204396EF008CC6EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		82111020204396EF008CC6EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		82111023204396EF008CC6EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82111025204396EF008CC6EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82111028204396EF008CC6EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8211102A204396EF008CC6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8211102B204396EF008CC6EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		821110332043972E008CC6EC /* JDLStatusBarHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLStatusBarHUD.h; sourceTree = "<group>"; };
+		821110342043972E008CC6EC /* JDLStatusBarHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLStatusBarHUD.m; sourceTree = "<group>"; };
+		8211103920439954008CC6EC /* JDLStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JDLStatusBarHUD.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82111016204396EF008CC6EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82111010204396EF008CC6EC = {
+			isa = PBXGroup;
+			children = (
+				8211101B204396EF008CC6EC /* JDLStatusBarHUD */,
+				8211101A204396EF008CC6EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8211101A204396EF008CC6EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82111019204396EF008CC6EC /* JDLStatusBarHUD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8211101B204396EF008CC6EC /* JDLStatusBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				821110322043970F008CC6EC /* JDLStatusBarHUD */,
+				8211101C204396EF008CC6EC /* AppDelegate.h */,
+				8211101D204396EF008CC6EC /* AppDelegate.m */,
+				8211101F204396EF008CC6EC /* ViewController.h */,
+				82111020204396EF008CC6EC /* ViewController.m */,
+				82111022204396EF008CC6EC /* Main.storyboard */,
+				82111025204396EF008CC6EC /* Assets.xcassets */,
+				82111027204396EF008CC6EC /* LaunchScreen.storyboard */,
+				8211102A204396EF008CC6EC /* Info.plist */,
+				8211102B204396EF008CC6EC /* main.m */,
+			);
+			path = JDLStatusBarHUD;
+			sourceTree = "<group>";
+		};
+		821110322043970F008CC6EC /* JDLStatusBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8211103920439954008CC6EC /* JDLStatusBarHUD.bundle */,
+				821110332043972E008CC6EC /* JDLStatusBarHUD.h */,
+				821110342043972E008CC6EC /* JDLStatusBarHUD.m */,
+			);
+			path = JDLStatusBarHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82111018204396EF008CC6EC /* JDLStatusBarHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8211102F204396EF008CC6EC /* Build configuration list for PBXNativeTarget "JDLStatusBarHUD" */;
+			buildPhases = (
+				82111015204396EF008CC6EC /* Sources */,
+				82111016204396EF008CC6EC /* Frameworks */,
+				82111017204396EF008CC6EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDLStatusBarHUD;
+			productName = JDLStatusBarHUD;
+			productReference = 82111019204396EF008CC6EC /* JDLStatusBarHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82111011204396EF008CC6EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "BlueSkyer-25";
+				TargetAttributes = {
+					82111018204396EF008CC6EC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 82111014204396EF008CC6EC /* Build configuration list for PBXProject "JDLStatusBarHUD" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82111010204396EF008CC6EC;
+			productRefGroup = 8211101A204396EF008CC6EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82111018204396EF008CC6EC /* JDLStatusBarHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82111017204396EF008CC6EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82111029204396EF008CC6EC /* LaunchScreen.storyboard in Resources */,
+				82111026204396EF008CC6EC /* Assets.xcassets in Resources */,
+				8211103A20439954008CC6EC /* JDLStatusBarHUD.bundle in Resources */,
+				82111024204396EF008CC6EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82111015204396EF008CC6EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821110352043972E008CC6EC /* JDLStatusBarHUD.m in Sources */,
+				82111021204396EF008CC6EC /* ViewController.m in Sources */,
+				8211102C204396EF008CC6EC /* main.m in Sources */,
+				8211101E204396EF008CC6EC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82111022204396EF008CC6EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82111023204396EF008CC6EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82111027204396EF008CC6EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82111028204396EF008CC6EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8211102D204396EF008CC6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8211102E204396EF008CC6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82111030204396EF008CC6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EVKP6X2HVB;
+				INFOPLIST_FILE = JDLStatusBarHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leguan.JDLStatusBarHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82111031204396EF008CC6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EVKP6X2HVB;
+				INFOPLIST_FILE = JDLStatusBarHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leguan.JDLStatusBarHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82111014204396EF008CC6EC /* Build configuration list for PBXProject "JDLStatusBarHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8211102D204396EF008CC6EC /* Debug */,
+				8211102E204396EF008CC6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8211102F204396EF008CC6EC /* Build configuration list for PBXNativeTarget "JDLStatusBarHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82111030204396EF008CC6EC /* Debug */,
+				82111031204396EF008CC6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82111011204396EF008CC6EC /* Project object */;
+}
